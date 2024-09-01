@@ -1,0 +1,17 @@
+- saving history of our project and go back to the date we want, when the software was working fine.
+
+- collaborating with others
+
+ - git allows us to maintain the project, its history, who made the change and where
+
+ - GitHub allows us to host the git repository.
+
+All of the history are stored in another folder, that git provides us. It's called as git repo, otherwise .git
+
+How to know what changes are made to the project that hasn't saved yet to the history.
+=>git status
+
+
+
+
+
