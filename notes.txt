@@ -17,6 +17,8 @@ How to know what changes are made to the project that hasn't saved yet to the hi
 
 => git restore --staged <filename> remove the file from the staging area.
 
+History of all the commits that were made -> git log
+
 
   
 
