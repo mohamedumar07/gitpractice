@@ -9,8 +9,16 @@
 All of the history are stored in another folder, that git provides us. It's called as git repo, otherwise .git
 
 How to know what changes are made to the project that hasn't saved yet to the history.
-=>git status
+=>git status to check the status of the files in the project folder whether they are kept track of or not
 
+=> git add <filename> to add all the untracked files to the staging area.
+
+=> git commit -m <message> Recording changes to the repository.
+
+=> git restore --staged <filename> remove the file from the staging area.
+
+
+  
 
 
 
