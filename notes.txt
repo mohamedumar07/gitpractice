@@ -19,6 +19,21 @@ How to know what changes are made to the project that hasn't saved yet to the hi
 
 History of all the commits that were made -> git log
 
+to go back to the commit we want and remove previous commits, we need to use "git reset <hashcode of the commit>"
+
+git stash -> adds the modified content to backstage
+
+git stash pop -> brings from back stage area to the non-staged area.
+
+git stash clear -> cleans all the history in the back stage
+
+
+git remote add origin <url> -> remote means working with URL, add means adding a new url, origin means the url that we are going to add. 
+
+git remote -v -> shows all the folder that are attached to the folder.
+
+git push origin master -> to push the changes to the master branch.
+
 
   
 
