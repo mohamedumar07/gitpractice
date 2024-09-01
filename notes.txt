@@ -35,8 +35,19 @@ git remote -v -> shows all the folder that are attached to the folder.
 git push origin master -> to push the changes to the master branch.
 
 
-  
+never commit on the main branch, cause that branch is used by the users.
 
+Always create separate branches to add our changes, once they are all finalized we can add it to the main.
+
+
+HEAD is a pointer which says all the commits we make added to that HEAD where it is pointing to a branch.
+
+
+git branch "branch name" -> creates a new branch
+
+git checkout <branch name> -? sets the pointer header to this branch
+
+git merge <branch name> -> merges the branch to the main branch
 
 
 
