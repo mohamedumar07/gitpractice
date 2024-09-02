@@ -104,3 +104,4 @@ use --hard to reset
 Merge Conflicts ->  When there are more than one change, git gets confused, it will ask us for help.
 
 
+Simple
