@@ -50,4 +50,57 @@ git checkout <branch name> -? sets the pointer header to this branch
 git merge <branch name> -> merges the branch to the main branch
 
 
+Fork -> make a copy of a project into our own account. Once its in our own account, we can do whatever we want with it.
+
+
+git clone <url> -> clones the project into our system.
+
+upstream -> from where we have forked the project, that is called upstream url by convention.
+
+git remote add upstream <url>-> adding the origin of url where we have forked the project from
+
+When we create our own copy, and the changes that we make, to be visible in the main project, we request it via pull request. People will review it and then merge it to their code base.
+
+
+We request a pull request in order to merge our code into the main branch.
+
+When we create a pull request, the owner of the main will get the notification.
+
+Then they will merge the code to the main.
+
+For every bug we are working on, create a new pull request.
+
+If a branch already has one pull request, all the changes will be associated to that pull request.
+
+If a branch already has one pull request, it wont allow us to create a new pull request.
+
+
+create a new branch for new feature
+
+force push, if the remote and local commits dont match, using -f
+
+matching out fork with the main project folder.
+
+   - checkout to the main branch
+
+   - fetching all the commits using git fetch --all --prune
+
+   - reset the main branch of our main to that of the upstream by 
+using git reset --hard upstream/main
+
+   - then push it to the origin master.
+
+
+git pull upstream main  -> same as above commands.
+
+
+Whenever we create new branch, need to ensure the master branch is upto date.
+
+To merge all commits -> git rebase -i <hashcode> (hashcode of the previous one)
+
+use --hard to reset
+
+
+Merge Conflicts ->  When there are more than one change, git gets confused, it will ask us for help.
+
 
